@@ -64,4 +64,4 @@
   </a>
 </p>
 
-<p align="center"><i>☕ Always chasing clean code, a good pace, and the next bug to squash</i></p>
+<p align="center"><i>Not all those who wander are lost</i></p>
