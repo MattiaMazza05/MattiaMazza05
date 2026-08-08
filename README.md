@@ -1,17 +1,15 @@
-<h1 align="center">Ciao, sono Mattia 👋</h1>
+<h1 align="center">Hey, I'm Mattia 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Studente+di+Informatica+a+Pisa+%F0%9F%8F%9B%EF%B8%8F;Siciliano+in+trasferta+%F0%9F%8C%84;Android+dev+tra+sensori+e+shake+detection+%F0%9F%93%B1;Runner+e+palestra+quando+non+sto+debuggando+%F0%9F%8F%83%E2%80%8D%E2%99%82%EF%B8%8F;Fan+degli+orologi+meccanici+%E2%8C%9A" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Sicilian+roots%2C+Pisa+address+%F0%9F%8C%84;CS+student+%40+University+of+Pisa+%F0%9F%8F%9B%EF%B8%8F;Runner+first%2C+lifter+second%2C+coder+always+%F0%9F%8F%83%E2%80%8D%E2%99%82%EF%B8%8F;Currently+chasing+a+sub-1%3A50+half+marathon" alt="Typing SVG" />
 </p>
 
 ## 🚀 About Me
 
-- 🏛️ Studente di Informatica all'**Università di Pisa**, originario della **Sicilia**
-- 💻 Mi piace costruire cose che funzionano davvero: dal web development alle app mobile, passando per qualche sensore impazzito
-- 📱 Attualmente alle prese con lo sviluppo Android — tilt, shake e proximity sensor sono il mio pane quotidiano
-- 🏃‍♂️ Quando non sto scrivendo codice, probabilmente sto correndo lunghe distanze o sollevando pesi in palestra
-- ⌚ Appassionato di orologi meccanici — l'obiettivo nel cassetto è un Omega Speedmaster
-- 🌱 Attualmente sto approfondendo lo sviluppo Android e mi preparo per un possibile tirocinio
+- 🌴 Sicilian, currently based in Pisa for my CS degree
+- 🏃‍♂️ Running long distances and lifting weights take up most of the time I'm not coding
+- 💻 Developer with a web-first background, plus basic knowledge of Android app development
+- 🌱 Always building something on the side, currently gearing up for an upcoming internship
 
 ---
 
@@ -29,14 +27,14 @@
 
 ---
 
-## 📌 Progetti recenti
+## 📌 Featured Builds
 
 <!--START_SECTION:repos-->
-<!-- Questa sezione si aggiorna automaticamente con le tue repo più recenti grazie a una GitHub Action -->
+<!-- This section auto-updates with your latest repos via a GitHub Action -->
 <!--END_SECTION:repos-->
 
-> 🔧 EchoBox – Sound Reactor: audio player Android controllato da gesti (tilt, shake, proximity sensor)
-> 🏉 Rugby Analytics & Rules Hub: web app con Next.js, Supabase, Tailwind e RapidAPI
+> 🏉 **Rugby Analytics & Rules Hub** — a stats-and-rules web app built with Next.js, Supabase, Tailwind and RapidAPI
+> 🔧 **EchoBox – Sound Reactor** — an Android audio player controlled by tilt, shake and proximity gestures, built while getting my feet wet with mobile dev
 
 ---
 
@@ -52,12 +50,12 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MattiaMazza05&label=Visite%20al%20profilo&color=2E9EF7&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=MattiaMazza05&label=Profile%20views&color=2E9EF7&style=flat" />
 </p>
 
 ---
 
-## 📫 Contatti
+## 📫 Get in touch
 
 <p align="left">
   <a href="https://www.linkedin.com/in/mattia-mazza17" target="_blank">
@@ -68,4 +66,4 @@
   </a>
 </p>
 
-<p align="center"><i>☕ Sempre alla ricerca di codice pulito, run a passo giusto e il prossimo bug da schiacciare</i></p>
+<p align="center"><i>☕ Always chasing clean code, a good pace, and the next bug to squash</i></p>
