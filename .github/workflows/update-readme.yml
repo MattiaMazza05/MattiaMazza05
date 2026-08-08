@@ -1,0 +1,49 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # ogni giorno alle 06:00 UTC
+  push:
+    branches: [main]
+  workflow_dispatch:       # permette di lanciarlo manualmente da Actions
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch recent repos and update README
+        run: |
+          USERNAME="MattiaMazza05"
+          REPOS_JSON=$(curl -s "https://api.github.com/users/${USERNAME}/repos?sort=updated&per_page=5")
+
+          LIST=""
+          for row in $(echo "${REPOS_JSON}" | jq -r '.[] | select(.fork==false) | @base64'); do
+            _jq() { echo ${row} | base64 --decode | jq -r ${1}; }
+            NAME=$(_jq '.name')
+            DESC=$(_jq '.description // ""')
+            URL=$(_jq '.html_url')
+            LIST="${LIST}> 🔹 [**${NAME}**](${URL}) — ${DESC}\n"
+          done
+
+          printf "%b" "${LIST}" > /tmp/repo_list.txt
+
+          awk -v repl="$(cat /tmp/repo_list.txt)" '
+            BEGIN{p=1}
+            /<!--START_SECTION:repos-->/{print; print repl; p=0; next}
+            /<!--END_SECTION:repos-->/{p=1}
+            p{print}
+          ' README.md > README.tmp && mv README.tmp README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: update featured repos"
+          git push
