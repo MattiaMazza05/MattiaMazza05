@@ -78,6 +78,7 @@ jobs:
           import urllib.request
 
           USERNAME = "MattiaMazza05"
+          PROFILE_REPO = f"{USERNAME}/{USERNAME}"
           url = f"https://api.github.com/users/{USERNAME}/events/public?per_page=30"
 
           req = urllib.request.Request(url, headers={"User-Agent": USERNAME})
@@ -89,8 +90,13 @@ jobs:
               repo = event["repo"]["name"]
               payload = event.get("payload", {})
 
+              if repo == PROFILE_REPO:
+                  return None  # salta il repo del profilo stesso (auto-commit del workflow)
+
               if etype == "PushEvent":
-                  n = len(payload.get("commits", []))
+                  n = payload.get("distinct_size")
+                  if n is None:
+                      n = payload.get("size", len(payload.get("commits", [])))
                   commit_word = "commit" if n == 1 else "commits"
                   return f"🟢 Pushed {n} {commit_word} to [`{repo}`](https://github.com/{repo})"
               if etype == "CreateEvent":
@@ -144,5 +150,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || git commit -m "chore: update featured repos and recent activity"
-          git push
+          git diff --staged --quiet && echo "Nothing to commit" && exit 0
+          git commit -m "chore: update featured repos and recent activity"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && break
+            echo "Push fallito, ritento (tentativo $i)..."
+            sleep 3
+          done
