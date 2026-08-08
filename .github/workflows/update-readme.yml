@@ -94,11 +94,7 @@ jobs:
                   return None  # salta il repo del profilo stesso (auto-commit del workflow)
 
               if etype == "PushEvent":
-                  n = payload.get("distinct_size")
-                  if n is None:
-                      n = payload.get("size", len(payload.get("commits", [])))
-                  commit_word = "commit" if n == 1 else "commits"
-                  return f"🟢 Pushed {n} {commit_word} to [`{repo}`](https://github.com/{repo})"
+                  return f"🟢 Pushed to [`{repo}`](https://github.com/{repo})"
               if etype == "CreateEvent":
                   ref_type = payload.get("ref_type", "repo")
                   return f"🎉 Created {ref_type} in [`{repo}`](https://github.com/{repo})"
