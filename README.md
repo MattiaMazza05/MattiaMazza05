@@ -30,7 +30,9 @@
 ## 📌 Featured Builds
 
 <!--START_SECTION:repos-->
-<!-- This section auto-updates with your latest repos via a GitHub Action -->
+- 🔹 **[CacciaAlTesoroSAM](https://github.com/MattiaMazza05/CacciaAlTesoroSAM)**
+- 🔹 **[Dashboard-Personale](https://github.com/MattiaMazza05/Dashboard-Personale)** — Una Dashboard personalizzata per me per gestire un pò di cose
+- 🔹 **[Progetto-SAW-UniPi](https://github.com/MattiaMazza05/Progetto-SAW-UniPi)**
 <!--END_SECTION:repos-->
 
 ---
@@ -71,7 +73,11 @@
 ## 📰 Recent Activity
 
 <!--START_SECTION:activity-->
-<!-- This section auto-updates with your latest GitHub events via a GitHub Action -->
+- 🟢 Pushed 0 commits to [`MattiaMazza05/MattiaMazza05`](https://github.com/MattiaMazza05/MattiaMazza05)
+- 🟢 Pushed 0 commits to [`MattiaMazza05/MattiaMazza05`](https://github.com/MattiaMazza05/MattiaMazza05)
+- 🟢 Pushed 0 commits to [`MattiaMazza05/MattiaMazza05`](https://github.com/MattiaMazza05/MattiaMazza05)
+- 🟢 Pushed 0 commits to [`MattiaMazza05/MattiaMazza05`](https://github.com/MattiaMazza05/MattiaMazza05)
+- 🟢 Pushed 0 commits to [`MattiaMazza05/MattiaMazza05`](https://github.com/MattiaMazza05/MattiaMazza05)
 <!--END_SECTION:activity-->
 
 ---
