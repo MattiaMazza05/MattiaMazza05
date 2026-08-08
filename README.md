@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Mattia 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Sicilian+roots%2C+Pisa+address+%F0%9F%8C%84;CS+student+%40+University+of+Pisa+%F0%9F%8F%9B%EF%B8%8F;Runner+first%2C+lifter+second%2C+coder+always+%F0%9F%8F%83%E2%80%8D%E2%99%82%EF%B8%8F;Currently+chasing+a+sub-1%3A50+half+marathon" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Sicilian+roots%2C+Pisa+address+%F0%9F%8C%84;CS+student+%40+University+of+Pisa+%F0%9F%8F%9B%EF%B8%8F;Runner+first%2C+lifter+second%2C+coder+always+%F0%9F%8F%83%E2%80%8D%E2%99%82%EF%B8%8F" alt="Typing SVG" />
 </p>
 
 ## 🚀 About Me
@@ -33,8 +33,6 @@
 <!-- This section auto-updates with your latest repos via a GitHub Action -->
 <!--END_SECTION:repos-->
 
-> 🏉 **Rugby Analytics & Rules Hub** — a stats-and-rules web app built with Next.js, Supabase, Tailwind and RapidAPI
-> 🔧 **EchoBox – Sound Reactor** — an Android audio player controlled by tilt, shake and proximity gestures, built while getting my feet wet with mobile dev
 
 ---
 
