@@ -33,23 +33,46 @@
 <!-- This section auto-updates with your latest repos via a GitHub Action -->
 <!--END_SECTION:repos-->
 
-
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&theme=tokyonight&hide_border=true" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=MattiaMazza05&show_icons=true&theme=tokyonight&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=MattiaMazza05&show_icons=true&theme=default&hide_border=true" />
+    <img height="165" src="https://github-stats-extended.vercel.app/api?username=MattiaMazza05&show_icons=true&theme=default&hide_border=true" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&theme=tokyonight&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&theme=default&hide_border=true" />
+    <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&theme=default&hide_border=true" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MattiaMazza05&theme=tokyonight&hide_border=true" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=MattiaMazza05&theme=tokyonight&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=MattiaMazza05&theme=default&hide_border=true" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=MattiaMazza05&theme=default&hide_border=true" />
+  </picture>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MattiaMazza05&label=Profile%20views&color=2E9EF7&style=flat" />
-</p>
+---
+
+## ⏱️ Coding Time (WakaTime)
+
+<!--START_SECTION:waka-->
+<!-- This section auto-updates weekly via a GitHub Action -->
+<!--END_SECTION:waka-->
+
+---
+
+## 📰 Recent Activity
+
+<!--START_SECTION:activity-->
+<!-- This section auto-updates with your latest GitHub events via a GitHub Action -->
+<!--END_SECTION:activity-->
 
 ---
 
