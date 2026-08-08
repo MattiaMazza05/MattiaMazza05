@@ -25,20 +25,32 @@ jobs:
           import urllib.request
 
           USERNAME = "MattiaMazza05"
-          url = f"https://api.github.com/users/{USERNAME}/repos?sort=updated&per_page=5"
+          url = f"https://api.github.com/users/{USERNAME}/repos?sort=updated&per_page=10"
 
           req = urllib.request.Request(url, headers={"User-Agent": USERNAME})
           with urllib.request.urlopen(req) as response:
               repos = json.load(response)
 
           lines = []
+          count = 0
           for repo in repos:
               if repo.get("fork"):
                   continue
+              if repo["name"].lower() == USERNAME.lower():
+                  continue  # salta il repo del profilo stesso
+              if count >= 5:
+                  break
               name = repo["name"]
-              desc = repo.get("description") or ""
+              desc = (repo.get("description") or "").strip()
               html_url = repo["html_url"]
-              lines.append(f"> 🔹 [**{name}**]({html_url}) — {desc}")
+              entry = f"- 🔹 **[{name}]({html_url})**"
+              if desc:
+                  entry += f" — {desc}"
+              lines.append(entry)
+              count += 1
+
+          if not lines:
+              lines = ["_No public repos yet — stay tuned!_"]
 
           replacement = "\n".join(lines)
 
