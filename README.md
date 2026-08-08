@@ -1,56 +1,71 @@
-<hAlign="center">Hi there 👋, I'm Mattia</hAlign>
+<h1 align="center">Ciao, sono Mattia 👋</h1>
 
-<h3 align="center">Computer Science Undergraduate @ UniPi | Software Developer</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Studente+di+Informatica+a+Pisa+%F0%9F%8F%9B%EF%B8%8F;Siciliano+in+trasferta+%F0%9F%8C%84;Android+dev+tra+sensori+e+shake+detection+%F0%9F%93%B1;Runner+e+palestra+quando+non+sto+debuggando+%F0%9F%8F%83%E2%80%8D%E2%99%82%EF%B8%8F;Fan+degli+orologi+meccanici+%E2%8C%9A" alt="Typing SVG" />
+</p>
 
-<br>
+## 🚀 About Me
 
-### 🚀 About Me
-* 🏛️ I'm an undergraduate student in **Computer Science at the University of Pisa**, originally from Sicily.
-* 💻 Passionate about building robust software, ranging from **modern web applications** to **low-level systems and mobile apps**.
-* 🏃‍♂️ When I'm not coding, you'll likely find me out for a long-distance run or lifting weights at the gym.
-* ☕ Always looking for clean code, high-hydration pizza doughs, and mechanical watches.
+- 🏛️ Studente di Informatica all'**Università di Pisa**, originario della **Sicilia**
+- 💻 Mi piace costruire cose che funzionano davvero: dal web development alle app mobile, passando per qualche sensore impazzito
+- 📱 Attualmente alle prese con lo sviluppo Android — tilt, shake e proximity sensor sono il mio pane quotidiano
+- 🏃‍♂️ Quando non sto scrivendo codice, probabilmente sto correndo lunghe distanze o sollevando pesi in palestra
+- ⌚ Appassionato di orologi meccanici — l'obiettivo nel cassetto è un Omega Speedmaster
+- 🌱 Attualmente sto approfondendo lo sviluppo Android e mi preparo per un possibile tirocinio
 
-<br>
+---
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **Frontend & Web** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) |
-| **Backend & Tools** | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white) |
+<p align="left">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+</p>
 
-<br>
+---
 
-### 📊 GitHub Stats
+## 📌 Progetti recenti
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" alt="Top Languages" />
-</div>
+<!--START_SECTION:repos-->
+<!-- Questa sezione si aggiorna automaticamente con le tue repo più recenti grazie a una GitHub Action -->
+<!--END_SECTION:repos-->
 
-<br>
+> 🔧 EchoBox – Sound Reactor: audio player Android controllato da gesti (tilt, shake, proximity sensor)
+> 🏉 Rugby Analytics & Rules Hub: web app con Next.js, Supabase, Tailwind e RapidAPI
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MattiaMazza05&theme=radical&hide_border=true&background=0d1117" alt="GitHub Streak" />
-</div>
+---
 
-<br>
+## 📊 GitHub Stats
 
-### 📫 Let's Connect
-* 💼 **GitHub:** [@MattiaMazza05](https://github.com/MattiaMazza05)
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
 
-<!--
-**MattiaMazza05/MattiaMazza05** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MattiaMazza05&theme=tokyonight&hide_border=true" />
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=MattiaMazza05&label=Visite%20al%20profilo&color=2E9EF7&style=flat" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 📫 Contatti
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/mattia-mazza17" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:mattia@mazza.rg.it">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+<p align="center"><i>☕ Sempre alla ricerca di codice pulito, run a passo giusto e il prossimo bug da schiacciare</i></p>
