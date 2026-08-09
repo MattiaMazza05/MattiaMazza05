@@ -69,7 +69,8 @@
 ```txt
 Total Time: 0 secs
 
-No activity tracked
+YAML     0 secs                ████████████████████████▓   98.97 %
+Kotlin   0 secs                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.03 %
 ```
 
 <!--END_SECTION:waka-->
