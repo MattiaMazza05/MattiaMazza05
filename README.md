@@ -62,18 +62,8 @@
 
 ---
 
-## ⏱️ Coding Time (WakaTime)
-
-<!--START_SECTION:waka-->
-
-```txt
-Total Time: 0 secs
-
-YAML     0 secs                ████████████████████████▓   98.97 %
-Kotlin   0 secs                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.03 %
-```
-
-<!--END_SECTION:waka-->
+⏱️ Coding Time
+<p align="center"> <a href="https://wakatime.com/@f720a764-dbea-41e4-b716-435f5a9cf0f5" target="_blank"> <img src="https://wakatime.com/badge/user/f720a764-dbea-41e4-b716-435f5a9cf0f5.svg" alt="Total time coded on WakaTime" /> </a> </p>
 
 ---
 
