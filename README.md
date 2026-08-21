@@ -70,7 +70,7 @@
 ## 📰 Recent Activity
 
 <!--START_SECTION:activity-->
-- 🟢 Pushed to [`MattiaMazza05/CacciaAlTesoroSAM`](https://github.com/MattiaMazza05/CacciaAlTesoroSAM)
+- 🎉 Created branch in [`MattiaMazza05/CacciaAlTesoroSAM`](https://github.com/MattiaMazza05/CacciaAlTesoroSAM)
 - 🟢 Pushed to [`MattiaMazza05/CacciaAlTesoroSAM`](https://github.com/MattiaMazza05/CacciaAlTesoroSAM)
 - 🟢 Pushed to [`MattiaMazza05/CacciaAlTesoroSAM`](https://github.com/MattiaMazza05/CacciaAlTesoroSAM)
 - 🟢 Pushed to [`MattiaMazza05/CacciaAlTesoroSAM`](https://github.com/MattiaMazza05/CacciaAlTesoroSAM)
