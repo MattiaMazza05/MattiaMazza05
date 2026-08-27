@@ -90,8 +90,8 @@ TOML       0 secs                ░░░░░░░░░░░░░░░�
 
 <!--START_SECTION:repos-->
 - **[CacciaAlTesoroSAM](https://github.com/MattiaMazza05/CacciaAlTesoroSAM)**
-- **[Dashboard-Personale](https://github.com/MattiaMazza05/Dashboard-Personale)** — Una dashboard personale per gestire un po' di cose
-- **[Progetto-SAW-UniPi](https://github.com/MattiaMazza05/Progetto-SAW-UniPi)**
+- **[Dashboard-Personale](https://github.com/MattiaMazza05/Dashboard-Personale)** — Una Dashboard personalizzata per me per gestire un pò di cose
+- **[Progetto-SAW-UniPi](https://github.com/MattiaMazza05/Progetto-SAW-UniPi)** &nbsp;·&nbsp; ★ 1
 <!--END_SECTION:repos-->
 
 <br>
