@@ -1,6 +1,6 @@
 <!-- HEADER -->
 <a href="https://github.com/MattiaMazza05">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Mattia%20Mazza&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=CS%20student%20at%20the%20University%20of%20Pisa%20%7C%20Sicilian%20%7C%20Web%20Developer&descSize=16&descAlignY=56" alt="header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Mattia%20Mazza&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=CS%20student%20at%20the%20University%20of%20Pisa&descSize=16&descAlignY=56" alt="header" />
 </a>
 
 <p align="center">
@@ -44,7 +44,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
 </p>
 
 <br>
@@ -52,20 +51,35 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://mattiamazza05-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&title_color=7aa2f7&icon_color=7aa2f7" alt="stats" />
-  <img height="170" src="https://mattiamazza05-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=7aa2f7" alt="top langs" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://mattiamazza05-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&title_color=7aa2f7&icon_color=7aa2f7" />
+    <img height="170" src="https://mattiamazza05-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=default&title_color=2f81f7&icon_color=2f81f7" alt="stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://mattiamazza05-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=7aa2f7" />
+    <img height="170" src="https://mattiamazza05-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&langs_count=8&hide_border=true&theme=default&title_color=2f81f7" alt="top langs" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=MattiaMazza05&hide_border=true&theme=tokyonight&ring=7aa2f7&fire=7aa2f7&currStreakLabel=7aa2f7" alt="streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=MattiaMazza05&hide_border=true&theme=tokyonight&ring=7aa2f7&fire=7aa2f7&currStreakLabel=7aa2f7" />
+    <img src="https://streak-stats.demolab.com?user=MattiaMazza05&hide_border=true&theme=default&ring=2f81f7&fire=2f81f7&currStreakLabel=2f81f7" alt="streak" />
+  </picture>
 </p>
 
 <p align="center">
-  <img width="95%" src="https://mattiamazza05-activity.vercel.app/graph?username=MattiaMazza05&bg_color=1a1b27&color=7aa2f7&line=7aa2f7&point=ffffff&area=true&hide_border=true" alt="activity graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://mattiamazza05-activity.vercel.app/graph?username=MattiaMazza05&bg_color=1a1b27&color=7aa2f7&line=7aa2f7&point=ffffff&area=true&hide_border=true" />
+    <img width="95%" src="https://mattiamazza05-activity.vercel.app/graph?username=MattiaMazza05&bg_color=ffffff&color=2f81f7&line=2f81f7&point=1a1b27&area=true&hide_border=true" alt="activity graph" />
+  </picture>
 </p>
 
 <p align="center">
-  <img width="95%" src="https://mattiamazza05-trophy.vercel.app/?username=MattiaMazza05&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://mattiamazza05-trophy.vercel.app/?username=MattiaMazza05&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
+    <img width="95%" src="https://mattiamazza05-trophy.vercel.app/?username=MattiaMazza05&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
+  </picture>
 </p>
 
 <br>
