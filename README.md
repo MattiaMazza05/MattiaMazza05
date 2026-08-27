@@ -1,6 +1,6 @@
 <!-- HEADER -->
 <a href="https://github.com/MattiaMazza05">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Mattia%20Mazza&fontSize=48&fontColor=ffffff&fontAlignY=52&desc=CS%20student%20at%20the%20University%20of%20Pisa&descSize=16&descAlignY=72" alt="header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=200&section=header&text=Mattia%20Mazza&fontSize=48&fontColor=ffffff&fontAlignY=40&desc=CS%20student%20at%20the%20University%20of%20Pisa&descSize=16&descAlignY=60" alt="header" />
 </a>
 
 <p align="center">
@@ -111,4 +111,4 @@ TOML       0 secs                ░░░░░░░░░░░░░░░�
 
 <p align="center"><i>Not all those who wander are lost</i></p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&reversal=true" alt="footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=80&section=footer" alt="footer" />
