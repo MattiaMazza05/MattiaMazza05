@@ -75,13 +75,6 @@
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://mattiamazza05-trophy.vercel.app/?username=MattiaMazza05&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
-    <img width="95%" src="https://mattiamazza05-trophy.vercel.app/?username=MattiaMazza05&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
-  </picture>
-</p>
-
 <br>
 
 ## ⏱️ Coding Time — WakaTime
