@@ -50,12 +50,12 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://mattiamazza05-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&title_color=7aa2f7&icon_color=7aa2f7" />
-    <img height="170" src="https://mattiamazza05-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=default&title_color=2f81f7&icon_color=2f81f7" alt="stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://mattiamazza05-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&title_color=7aa2f7&icon_color=7aa2f7&v=2" />
+    <img height="170" src="https://mattiamazza05-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=default&title_color=2f81f7&icon_color=2f81f7&v=2" alt="stats" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://mattiamazza05-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=7aa2f7" />
-    <img height="170" src="https://mattiamazza05-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&langs_count=8&hide_border=true&theme=default&title_color=2f81f7" alt="top langs" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://mattiamazza05-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=7aa2f7&v=2" />
+    <img height="170" src="https://mattiamazza05-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&langs_count=8&hide_border=true&theme=default&title_color=2f81f7&v=2" alt="top langs" />
   </picture>
 </p>
 
