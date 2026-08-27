@@ -1,6 +1,6 @@
 <!-- HEADER -->
 <a href="https://github.com/MattiaMazza05">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Mattia%20Mazza&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=CS%20student%20at%20the%20University%20of%20Pisa&descSize=16&descAlignY=56" alt="header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Mattia%20Mazza&fontSize=48&fontColor=ffffff&fontAlignY=52&desc=CS%20student%20at%20the%20University%20of%20Pisa&descSize=16&descAlignY=72" alt="header" />
 </a>
 
 <p align="center">
