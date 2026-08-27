@@ -1,11 +1,9 @@
 <!-- HEADER -->
-<a href="https://github.com/MattiaMazza05">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=200&section=header&text=Mattia%20Mazza&fontSize=48&fontColor=ffffff&fontAlignY=40&desc=CS%20student%20at%20the%20University%20of%20Pisa&descSize=16&descAlignY=60" alt="header" />
-</a>
+<h1 align="center">Mattia&nbsp;Mazza</h1>
 
 <p align="center">
   <a href="https://github.com/MattiaMazza05?tab=repositories">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&width=620&lines=Sicilian+roots%2C+Pisa+address+%F0%9F%8C%84;CS+student+%40+University+of+Pisa+%F0%9F%8F%9B%EF%B8%8F;Runner+first%2C+lifter+second%2C+coder+always+%F0%9F%8F%83" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&width=620&lines=CS+student+%40+University+of+Pisa+%F0%9F%8F%9B%EF%B8%8F;Sicilian+roots%2C+Pisa+address+%F0%9F%8C%84;Runner+first%2C+lifter+second%2C+coder+always+%F0%9F%8F%83" alt="typing" />
   </a>
 </p>
 
@@ -111,4 +109,4 @@ TOML       0 secs                ░░░░░░░░░░░░░░░�
 
 <p align="center"><i>Not all those who wander are lost</i></p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=80&section=footer" alt="footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=7aa2f7&height=70&section=footer" alt="" />
