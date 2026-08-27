@@ -1,6 +1,6 @@
 <!-- HEADER -->
 <a href="https://github.com/MattiaMazza05">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Mattia%20Mazza&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=CS%20student%20%40%20University%20of%20Pisa%20%C2%B7%20Sicilian%20%C2%B7%20Web%20Developer&descSize=16&descAlignY=56" alt="header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Mattia%20Mazza&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=CS%20student%20at%20the%20University%20of%20Pisa%20%7C%20Sicilian%20%7C%20Web%20Developer&descSize=16&descAlignY=56" alt="header" />
 </a>
 
 <p align="center">
@@ -52,8 +52,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&title_color=7aa2f7&icon_color=7aa2f7" alt="stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=7aa2f7" alt="top langs" />
+  <img height="170" src="https://mattiamazza05-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&title_color=7aa2f7&icon_color=7aa2f7" alt="stats" />
+  <img height="170" src="https://mattiamazza05-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=7aa2f7" alt="top langs" />
 </p>
 
 <p align="center">
@@ -61,11 +61,11 @@
 </p>
 
 <p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MattiaMazza05&bg_color=1a1b27&color=7aa2f7&line=7aa2f7&point=ffffff&area=true&hide_border=true" alt="activity graph" />
+  <img width="95%" src="https://mattiamazza05-activity.vercel.app/graph?username=MattiaMazza05&bg_color=1a1b27&color=7aa2f7&line=7aa2f7&point=ffffff&area=true&hide_border=true" alt="activity graph" />
 </p>
 
 <p align="center">
-  <img width="95%" src="https://github-profile-trophy.vercel.app/?username=MattiaMazza05&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
+  <img width="95%" src="https://mattiamazza05-trophy.vercel.app/?username=MattiaMazza05&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
 </p>
 
 <br>
@@ -101,4 +101,4 @@
 
 <p align="center"><i>Not all those who wander are lost</i></p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" alt="footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&reversal=true" alt="footer" />
