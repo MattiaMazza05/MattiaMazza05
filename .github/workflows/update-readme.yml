@@ -3,12 +3,14 @@ name: Update README
 on:
   schedule:
     - cron: '0 6 * * *'   # ogni giorno alle 06:00 UTC
-  push:
-    branches: [main]
-  workflow_dispatch:       # permette di lanciarlo manualmente da Actions
+  workflow_dispatch:       # esecuzione manuale da Actions
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: true
 
 jobs:
   update-readme:
@@ -17,42 +19,51 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Fetch recent repos and update README
+      - name: Update featured projects
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python3 << 'PYEOF'
+          python3 - <<'PYEOF'
           import json
+          import os
           import re
           import urllib.request
 
           USERNAME = "MattiaMazza05"
-          url = f"https://api.github.com/users/{USERNAME}/repos?sort=updated&per_page=10"
+          MAX_REPOS = 6
 
-          req = urllib.request.Request(url, headers={"User-Agent": USERNAME})
+          url = f"https://api.github.com/users/{USERNAME}/repos?sort=pushed&per_page=100"
+          headers = {"User-Agent": USERNAME, "Accept": "application/vnd.github+json"}
+          token = os.environ.get("GH_TOKEN")
+          if token:
+              headers["Authorization"] = f"Bearer {token}"
+
+          req = urllib.request.Request(url, headers=headers)
           with urllib.request.urlopen(req) as response:
               repos = json.load(response)
 
-          lines = []
-          count = 0
+          def keep(repo):
+              if repo.get("fork") or repo.get("archived") or repo.get("private"):
+                  return False
+              return repo["name"].lower() != USERNAME.lower()
+
+          entries = []
           for repo in repos:
-              if repo.get("fork"):
+              if not keep(repo):
                   continue
-              if repo["name"].lower() == USERNAME.lower():
-                  continue  # salta il repo del profilo stesso
-              if count >= 5:
-                  break
               name = repo["name"]
               desc = (repo.get("description") or "").strip()
-              html_url = repo["html_url"]
-              entry = f"- 🔹 **[{name}]({html_url})**"
+              stars = repo.get("stargazers_count", 0)
+              line = f"- **[{name}]({repo['html_url']})**"
               if desc:
-                  entry += f" — {desc}"
-              lines.append(entry)
-              count += 1
+                  line += f" — {desc}"
+              if stars:
+                  line += f" &nbsp;·&nbsp; ★ {stars}"
+              entries.append(line)
+              if len(entries) >= MAX_REPOS:
+                  break
 
-          if not lines:
-              lines = ["_No public repos yet — stay tuned!_"]
-
-          replacement = "\n".join(lines)
+          replacement = "\n".join(entries) if entries else "_Nothing public yet — soon._"
 
           with open("README.md", "r", encoding="utf-8") as f:
               content = f.read()
@@ -61,84 +72,13 @@ jobs:
               r"(<!--START_SECTION:repos-->).*?(<!--END_SECTION:repos-->)",
               re.DOTALL,
           )
-          new_content = pattern.sub(
+          content = pattern.sub(
               lambda m: f"{m.group(1)}\n{replacement}\n{m.group(2)}",
               content,
           )
 
           with open("README.md", "w", encoding="utf-8") as f:
-              f.write(new_content)
-          PYEOF
-
-      - name: Fetch recent activity and update README
-        run: |
-          python3 << 'PYEOF'
-          import json
-          import re
-          import urllib.request
-
-          USERNAME = "MattiaMazza05"
-          PROFILE_REPO = f"{USERNAME}/{USERNAME}"
-          url = f"https://api.github.com/users/{USERNAME}/events/public?per_page=30"
-
-          req = urllib.request.Request(url, headers={"User-Agent": USERNAME})
-          with urllib.request.urlopen(req) as response:
-              events = json.load(response)
-
-          def describe(event):
-              etype = event["type"]
-              repo = event["repo"]["name"]
-              payload = event.get("payload", {})
-
-              if repo == PROFILE_REPO:
-                  return None  # salta il repo del profilo stesso (auto-commit del workflow)
-
-              if etype == "PushEvent":
-                  return f"🟢 Pushed to [`{repo}`](https://github.com/{repo})"
-              if etype == "CreateEvent":
-                  ref_type = payload.get("ref_type", "repo")
-                  return f"🎉 Created {ref_type} in [`{repo}`](https://github.com/{repo})"
-              if etype == "WatchEvent":
-                  return f"⭐ Starred [`{repo}`](https://github.com/{repo})"
-              if etype == "ForkEvent":
-                  return f"🍴 Forked [`{repo}`](https://github.com/{repo})"
-              if etype == "PullRequestEvent":
-                  action = payload.get("action", "updated")
-                  return f"🔀 {action.capitalize()} a pull request in [`{repo}`](https://github.com/{repo})"
-              if etype == "IssuesEvent":
-                  action = payload.get("action", "updated")
-                  return f"❗ {action.capitalize()} an issue in [`{repo}`](https://github.com/{repo})"
-              if etype == "IssueCommentEvent":
-                  return f"💬 Commented on an issue in [`{repo}`](https://github.com/{repo})"
-              return None
-
-          lines = []
-          for event in events:
-              desc = describe(event)
-              if desc:
-                  lines.append(f"- {desc}")
-              if len(lines) >= 5:
-                  break
-
-          if not lines:
-              lines = ["_No recent public activity_"]
-
-          replacement = "\n".join(lines)
-
-          with open("README.md", "r", encoding="utf-8") as f:
-              content = f.read()
-
-          pattern = re.compile(
-              r"(<!--START_SECTION:activity-->).*?(<!--END_SECTION:activity-->)",
-              re.DOTALL,
-          )
-          new_content = pattern.sub(
-              lambda m: f"{m.group(1)}\n{replacement}\n{m.group(2)}",
-              content,
-          )
-
-          with open("README.md", "w", encoding="utf-8") as f:
-              f.write(new_content)
+              f.write(content)
           PYEOF
 
       - name: Commit changes
@@ -147,7 +87,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --staged --quiet && echo "Nothing to commit" && exit 0
-          git commit -m "chore: update featured repos and recent activity"
+          git commit -m "chore: refresh featured projects"
           for i in 1 2 3; do
             git pull --rebase origin main && git push && break
             echo "Push fallito, ritento (tentativo $i)..."
