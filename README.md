@@ -68,13 +68,6 @@
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://mattiamazza05-activity.vercel.app/graph?username=MattiaMazza05&bg_color=1a1b27&color=7aa2f7&line=7aa2f7&point=ffffff&area=true&hide_border=true" />
-    <img width="95%" src="https://mattiamazza05-activity.vercel.app/graph?username=MattiaMazza05&bg_color=ffffff&color=2f81f7&line=2f81f7&point=1a1b27&area=true&hide_border=true" alt="activity graph" />
-  </picture>
-</p>
-
 <br>
 
 ## ⏱️ Coding Time — WakaTime
