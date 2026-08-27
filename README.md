@@ -87,7 +87,17 @@
 ## ⏱️ Coding Time — WakaTime
 
 <!--START_SECTION:waka-->
-<!-- Auto-updated weekly by .github/workflows/update-wakatime.yml -->
+
+```txt
+Total Time: 10 hrs 1 min
+
+Kotlin     9 hrs 5 mins          █████████████████░░░░░░░░   67.51 %
+Other      3 hrs 25 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.51 %
+Markdown   42 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.29 %
+XML        13 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.69 %
+TOML       0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
+```
+
 <!--END_SECTION:waka-->
 
 <br>
