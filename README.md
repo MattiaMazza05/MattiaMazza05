@@ -73,13 +73,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 13 hrs 19 mins
+Total Time: 16 hrs 11 mins
 
-Kotlin       9 hrs 54 mins         ██████████████████░░░░░░░   71.50 %
-TypeScript   1 hr 7 mins           ██░░░░░░░░░░░░░░░░░░░░░░░   08.14 %
-Markdown     58 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   07.01 %
-YAML         32 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   03.91 %
-Other        32 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   03.91 %
+Kotlin       12 hrs 32 mins        ███████████████████░░░░░░   76.28 %
+Markdown     1 hr 13 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.43 %
+TypeScript   1 hr 7 mins           █▓░░░░░░░░░░░░░░░░░░░░░░░   06.87 %
+YAML         32 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.30 %
+JSON         17 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.82 %
 ```
 
 <!--END_SECTION:waka-->
