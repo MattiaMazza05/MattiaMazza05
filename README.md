@@ -73,11 +73,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 5 hrs 40 mins
+Total Time: 3 hrs 13 mins
 
-Kotlin     5 hrs 24 mins         █████████████████████░░░░   84.64 %
-Other      42 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   11.10 %
-Markdown   16 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   04.26 %
+Kotlin     3 hrs 2 mins          ███████████████████████▒░   93.22 %
+Markdown   11 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.08 %
+Other      1 min                 ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.71 %
 TOML       0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
 ```
 
