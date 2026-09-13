@@ -73,10 +73,10 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 3 hrs 28 mins
+Total Time: 2 hrs 14 mins
 
-TeX      2 hrs 20 mins         █████████████████░░░░░░░░   67.55 %
-Kotlin   1 hr 7 mins           ████████░░░░░░░░░░░░░░░░░   32.45 %
+Kotlin   1 hr 7 mins           ████████████▓░░░░░░░░░░░░   50.10 %
+TeX      1 hr 7 mins           ████████████▒░░░░░░░░░░░░   49.90 %
 ```
 
 <!--END_SECTION:waka-->
