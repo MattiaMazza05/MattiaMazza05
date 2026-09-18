@@ -73,9 +73,12 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 32 mins
+Total Time: 28 mins
 
-Kotlin   32 mins               █████████████████████████   100.00 %
+TypeScript   14 mins               ██████████▒░░░░░░░░░░░░░░   41.99 %
+CSS          7 mins                █████▓░░░░░░░░░░░░░░░░░░░   23.00 %
+Bash         6 mins                █████░░░░░░░░░░░░░░░░░░░░   20.25 %
+Other        4 mins                ███▓░░░░░░░░░░░░░░░░░░░░░   14.76 %
 ```
 
 <!--END_SECTION:waka-->
