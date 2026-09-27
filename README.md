@@ -86,8 +86,6 @@ JSON         0 secs                ░░░░░░░░░░░░░░░
 ## 📌 Featured Projects
 
 <!--START_SECTION:repos-->
-- **[wishlistMattia](https://github.com/MattiaMazza05/wishlistMattia)**
-- **[imparocpp](https://github.com/MattiaMazza05/imparocpp)** — Un'app molto semplice per imparare c++
 - **[CacciaAlTesoroSAM](https://github.com/MattiaMazza05/CacciaAlTesoroSAM)** — App Android (Jetpack Compose) per cacce al tesoro interattive. Supporta ruoli Master/Player, geofencing con Proximity Alert, persistenza Room e comunicazione Bluetooth per i risultati. UI in stile pixel art con animazioni Lottie dinamiche basate sulla posizione GPS. Progetto accademico per il corso di Sviluppo App Mobile. &nbsp;·&nbsp; ★ 1
 - **[Progetto-SAW-UniPi](https://github.com/MattiaMazza05/Progetto-SAW-UniPi)** &nbsp;·&nbsp; ★ 1
 - **[Dashboard-Personale](https://github.com/MattiaMazza05/Dashboard-Personale)** — Una Dashboard personalizzata per me per gestire un pò di cose
