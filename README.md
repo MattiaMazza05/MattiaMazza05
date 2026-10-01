@@ -73,10 +73,12 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 1 min
+Total Time: 10 mins
 
-CSS        1 min                 ████████████████████████▒   96.86 %
-Markdown   0 secs                ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.14 %
+HTML         8 mins                █████████████████████░░░░   83.72 %
+CSS          1 min                 ███▓░░░░░░░░░░░░░░░░░░░░░   15.18 %
+TypeScript   0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.62 %
+Markdown     0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.48 %
 ```
 
 <!--END_SECTION:waka-->
