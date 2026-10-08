@@ -1,111 +1,81 @@
-<!-- HEADER -->
 <h1 align="center">Mattia&nbsp;Mazza</h1>
 
 <p align="center">
-  <a href="https://github.com/MattiaMazza05?tab=repositories">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&width=620&lines=CS+student+%40+University+of+Pisa+%F0%9F%8F%9B%EF%B8%8F;Sicilian+roots%2C+Pisa+address+%F0%9F%8C%84;Runner+first%2C+lifter+second%2C+coder+always+%F0%9F%8F%83" alt="typing" />
-  </a>
+  Computer Science student at the University of Pisa · Developer
 </p>
+
+<h2 align="center">About me</h2>
+
+I am a Computer Science student from Sicily, currently based in Pisa.
+
+Most of my repositories come from university assignments, experiments, and side projects. I am very curious, enjoy learning new things, and am currently looking for an internship where I can strengthen my development skills by working on real products.
+
+Outside of programming, I spend my time running and lifting, and I am passionate about aviation.
+
+<h2 align="center">Tech stack</h2>
+
+<div align="center">
+  <table align="center">
+    <tr>
+      <td align="center">
+        <strong>Studied</strong><br><br>
+        <img src="https://skillicons.dev/icons?i=c,java,ts,kotlin,html,css" alt="C, Java, TypeScript, Kotlin, HTML, CSS" />
+      </td>
+      <td align="center">
+        <strong>Currently learning</strong><br><br>
+        <img src="https://skillicons.dev/icons?i=python,go,cpp" alt="Python, Go, C++" />
+      </td>
+      <td align="center">
+        <strong>Used in projects</strong><br><br>
+        <img src="https://skillicons.dev/icons?i=react,supabase,git" alt="React, Supabase, Git" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<h2 align="center">GitHub stats</h2>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MattiaMazza05&label=Profile%20views&color=7aa2f7&style=flat" alt="views" />
-  <img src="https://img.shields.io/github/followers/MattiaMazza05?label=Followers&style=flat&color=7aa2f7" alt="followers" />
+  <img
+    src="https://mattiamazza05-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent"
+    height="170"
+    alt="GitHub statistics"
+  />
+  <img
+    src="https://mattiamazza05-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&langs_count=8&hide_border=true&theme=transparent"
+    height="170"
+    alt="Most used languages"
+  />
 </p>
 
-<br>
-
-## 🚀 About Me
-
-- 🌴 &nbsp;Sicilian, based in **Pisa** for my Computer Science degree
-- 💻 &nbsp;Web-first developer — **React · Next.js · Supabase** — with some **Android** (Java / Kotlin) on the side
-- 🌱 &nbsp;Always shipping a side project; currently gearing up for an internship
-- 🏃 &nbsp;When I'm away from the keyboard I'm running long distances or lifting
-
-<br>
-
-## 🛠️ Tech Stack
+<h2 align="center">Recent coding activity</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  A snapshot of the languages and tools I have been using recently.
 </p>
-<p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</p>
-
-<br>
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://mattiamazza05-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&title_color=7aa2f7&icon_color=7aa2f7&v=2" />
-    <img height="170" src="https://mattiamazza05-stats.vercel.app/api?username=MattiaMazza05&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=default&title_color=2f81f7&icon_color=2f81f7&v=2" alt="stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://mattiamazza05-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=7aa2f7&v=2" />
-    <img height="170" src="https://mattiamazza05-stats.vercel.app/api/top-langs/?username=MattiaMazza05&layout=compact&langs_count=8&hide_border=true&theme=default&title_color=2f81f7&v=2" alt="top langs" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=MattiaMazza05&hide_border=true&theme=tokyonight&ring=7aa2f7&fire=7aa2f7&currStreakLabel=7aa2f7" />
-    <img src="https://streak-stats.demolab.com?user=MattiaMazza05&hide_border=true&theme=default&ring=2f81f7&fire=2f81f7&currStreakLabel=2f81f7" alt="streak" />
-  </picture>
-</p>
-
-<br>
-
-## ⏱️ Coding Time — WakaTime
 
 <!--START_SECTION:waka-->
 
-```txt
-Total Time: 4 hrs 51 mins
-
-TypeScript    2 hrs 13 mins         ██████████▒░░░░░░░░░░░░░░   41.70 %
-Bash          1 hr 5 mins           █████░░░░░░░░░░░░░░░░░░░░   20.60 %
-Image (svg)   32 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   10.15 %
-Other         28 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   08.88 %
-CSS           20 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.29 %
-```
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/wakatime?username=f720a764-dbea-41e4-b716-435f5a9cf0f5&layout=compact&hide_border=true&theme=transparent"
+    alt="WakaTime coding activity"
+  />
+</p>
 
 <!--END_SECTION:waka-->
 
-<br>
-
-## 📌 Featured Projects
+<h2 align="center">Featured projects</h2>
 
 <!--START_SECTION:repos-->
-- **[CacciaAlTesoroSAM](https://github.com/MattiaMazza05/CacciaAlTesoroSAM)** — App Android (Jetpack Compose) per cacce al tesoro interattive. Supporta ruoli Master/Player, geofencing con Proximity Alert, persistenza Room e comunicazione Bluetooth per i risultati. UI in stile pixel art con animazioni Lottie dinamiche basate sulla posizione GPS. Progetto accademico per il corso di Sviluppo App Mobile. &nbsp;·&nbsp; ★ 1
-- **[Progetto-SAW-UniPi](https://github.com/MattiaMazza05/Progetto-SAW-UniPi)** &nbsp;·&nbsp; ★ 1
+- **[CacciaAlTesoroSAM](https://github.com/MattiaMazza05/CacciaAlTesoroSAM)** — Android application for interactive treasure hunts, built with Jetpack Compose. It includes Master and Player roles, geofencing, Room persistence, Bluetooth communication, and a pixel-art interface with location-based animations.
+- **[Progetto-SAW-UniPi](https://github.com/MattiaMazza05/Progetto-SAW-UniPi)** — University project developed for the Software Applications and Web course.
 <!--END_SECTION:repos-->
 
-<br>
-
-## 🤝 Connect
+<h2 align="center">Connect</h2>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mattia-mazza17">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:mattia@mazza.rg.it">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+  <a href="https://www.linkedin.com/in/mattia-mazza17">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:mattia@mazza.rg.it">Email</a>
 </p>
-
-<p align="center"><i>Not all those who wander are lost</i></p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=7aa2f7&height=70&section=footer" alt="" />
