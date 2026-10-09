@@ -33,7 +33,7 @@ Outside of programming, I spend my time running and lifting, and I am passionate
   </table>
 </div>
 
-<h2 align="center">GitHub stats</h2>
+<h2 align="center">Stats</h2>
 
 <p align="center">
   <img
@@ -46,12 +46,6 @@ Outside of programming, I spend my time running and lifting, and I am passionate
     height="170"
     alt="Most used languages"
   />
-</p>
-
-<h2 align="center">Recent coding activity</h2>
-
-<p align="center">
-  A snapshot of the languages and tools I have been using recently.
 </p>
 
 <p align="center">
