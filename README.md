@@ -54,19 +54,12 @@ Outside of programming, I spend my time running and lifting, and I am passionate
   A snapshot of the languages and tools I have been using recently.
 </p>
 
-<!--START_SECTION:waka-->
-
-```txt
-Total Time: 5 hrs 21 mins
-
-TypeScript    2 hrs 34 mins         ██████████▓░░░░░░░░░░░░░░   42.71 %
-Bash          1 hr 5 mins           ████▓░░░░░░░░░░░░░░░░░░░░   18.17 %
-Other         40 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   11.27 %
-Markdown      39 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   10.92 %
-Image (svg)   32 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   08.95 %
-```
-
-<!--END_SECTION:waka-->
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/wakatime?username=f720a764-dbea-41e4-b716-435f5a9cf0f5&layout=compact&hide_border=true&theme=transparent"
+    alt="WakaTime coding activity"
+  />
+</p>
 
 <h2 align="center">Featured projects</h2>
 
