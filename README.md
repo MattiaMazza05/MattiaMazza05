@@ -58,8 +58,8 @@ Outside of programming, I spend my time running and lifting, and I am passionate
 <h2 align="center">Featured projects</h2>
 
 <!--START_SECTION:repos-->
-- **[CacciaAlTesoroSAM](https://github.com/MattiaMazza05/CacciaAlTesoroSAM)** — Android application for interactive treasure hunts, built with Jetpack Compose. It includes Master and Player roles, geofencing, Room persistence, Bluetooth communication, and a pixel-art interface with location-based animations.
-- **[Progetto-SAW-UniPi](https://github.com/MattiaMazza05/Progetto-SAW-UniPi)** — University project developed for the Software Applications and Web course.
+- **[CacciaAlTesoroSAM](https://github.com/MattiaMazza05/CacciaAlTesoroSAM)** — App Android (Jetpack Compose) per cacce al tesoro interattive. Supporta ruoli Master/Player, geofencing con Proximity Alert, persistenza Room e comunicazione Bluetooth per i risultati. UI in stile pixel art con animazioni Lottie dinamiche basate sulla posizione GPS. Progetto accademico per il corso di Sviluppo App Mobile. &nbsp;·&nbsp; ★ 1
+- **[Progetto-SAW-UniPi](https://github.com/MattiaMazza05/Progetto-SAW-UniPi)** &nbsp;·&nbsp; ★ 1
 <!--END_SECTION:repos-->
 
 <h2 align="center">Connect</h2>
