@@ -23,7 +23,7 @@ Outside of programming, I spend my time running and lifting, and I am passionate
       </td>
       <td align="center">
         <strong>Currently learning</strong><br><br>
-        <img src="https://skillicons.dev/icons?i=python,go,cpp" alt="Python, Go, C++" />
+        <img src="https://skillicons.dev/icons?i=python,go,cpp, sql" alt="Python, Go, C++, SQL" />
       </td>
       <td align="center">
         <strong>Used in projects</strong><br><br>
