@@ -60,6 +60,8 @@ Outside of programming, I spend my time running and lifting, and I am passionate
 <!--START_SECTION:repos-->
 - **[Progetto-SAW-UniPi](https://github.com/MattiaMazza05/Progetto-SAW-UniPi)** — Diario fitness personale per monitorare allenamenti, misurazioni corporee e abitudini, con integrazione Strava e supporto PWA. &nbsp;·&nbsp; ★ 1
 - **[CacciaAlTesoroSAM](https://github.com/MattiaMazza05/CacciaAlTesoroSAM)** — App Android (Jetpack Compose) per cacce al tesoro interattive. Supporta ruoli Master/Player, geofencing con Proximity Alert, persistenza Room e comunicazione Bluetooth per i risultati. UI in stile pixel art con animazioni Lottie dinamiche basate sulla posizione GPS. Progetto accademico per il corso di Sviluppo App Mobile. &nbsp;·&nbsp; ★ 1
+- **[ProgettoConnectionLab3](https://github.com/MattiaMazza05/ProgettoConnectionLab3)**
+- **[Progetto-Estivo-Lab-2](https://github.com/MattiaMazza05/Progetto-Estivo-Lab-2)** — Progetto Estivo Laboratorio 2 Università di Pisa A.A. 24/25
 <!--END_SECTION:repos-->
 
 <h2 align="center">Connect</h2>
