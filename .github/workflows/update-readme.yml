@@ -29,7 +29,7 @@ jobs:
           import re
           import urllib.request
 
-          USERNAME = "MattiaMazza05"
+          USERNAME = "tzsquared"
           MAX_REPOS = 6
 
           url = f"https://api.github.com/users/{USERNAME}/repos?sort=pushed&per_page=100"
